@@ -80,4 +80,73 @@ const questions= [
             { text: "Sello", correct: false },
         ]
     },
+
+    {
+        question: "Montako kertaa Peppi on muuttanut elämänsä aikana?",
+        answers: [
+            { text: "5", correct: false },
+            { text: "10", correct: false },
+            { text: "14", correct: true },
+            { text: "20", correct: false },
+        ]
+    },
+
+    {
+        question: "Mikä on Pepin lempi sarja?",
+        answers: [
+            { text: "Mandalorian", correct: false },
+            { text: "Breaking Bad", correct: false },
+            { text: "GOT", correct: true },
+            { text: "Gossip Girl", correct: false },
+        ]
+    },
+
+    {
+        question: "Montako sisarusta Pepillä on?",
+        answers: [
+            { text: "4", correct: false },
+            { text: "5", correct: true },
+            { text: "7", correct: false },
+            { text: "0", correct: false },
+        ]
+    },
+    
+    {
+        question: "Mikä on Pepin lempi vuodenaika?",
+        answers: [
+            { text: "Kesä", correct: true },
+            { text: "Syksy", correct: false },
+            { text: "Kevät", correct: false },
+            { text: "Talvi", correct: false },
+        ]
+    },
+    {
+        question: "Mikä on Jessican lempiväri?",
+        answers: [
+            { text: "Sininen", correct: false },
+            { text: "Vihreä", correct: false },
+            { text: "Pinkki", correct: true },
+            { text: "Keltainen", correct: false },
+        ]
+    },
+    
+    {
+        question: "Missä Jessica on syntynyt?",
+        answers: [
+            { text: "Helsinki", correct: false },
+            { text: "Vantaa", correct: false },
+            { text: "Buenos Aires", correct: false },
+            { text: "Toronto", correct: true },
+        ]
+    },
+    
+    {
+        question: "Mikä on Jessican lempiruoka?",
+        answers: [
+            { text: "Sushi", correct: true },
+            { text: "Pizza", correct: false },
+            { text: "Burgeri", correct: false },
+            { text: "Pasta", correct: false },
+        ]
+    },
 ];
