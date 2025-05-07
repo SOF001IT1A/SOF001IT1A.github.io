@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Valitse visakategoria</title>
+
+    <!--  Sama perus-CSS kuin visassa -->
+    <link rel="stylesheet" href="./quizstyle.css" />
+
+    <!--  Pieni lisä ulkoasulle, ks. kohta 2  -->
+    <link rel="stylesheet" href="./home.css" />
+</head>
+<body>
+    <div class="app">          <!--  Sama korttimainen laatikko  -->
+
+        <h1>Tervetuloa tietovisaan!</h1>
+        <h2>Valitse kategoria:</h2>
+
+        <div id="categories" class="cat-grid">
+            <!-- Lisää / poista nappeja vapaasti -->
+            <!-- Tästä voi vaihtaa emojia -> https://emojipedia.org/    -->
+            <button data-cat="eläimet" class="btn cat-btn">🐾 Eläimet</button>
+            <button data-cat="suomi" class="btn cat-btn">🇫🇮  Suomi</button>
+            <button data-cat="historia" class="btn cat-btn">🗺️ Historia</button>
+            <button data-cat="tekijät" class="btn cat-btn"> 🙋‍♀️ Tekijät</button>
+
+
+            <p> Tekijät: Iida Skogman, Milja Taskinen, Anna Toivanen, Peppi Vine, Jessica Toivola</p>
+
+        </div>
+    </div>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
